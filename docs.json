@@ -1,0 +1,66 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "EasyPPP",
+  "colors": {
+    "primary": "#0FA47A",
+    "light": "#8FF0C8",
+    "dark": "#0A7A5A"
+  },
+  "favicon": "https://easyppp.com/favicon.svg",
+  "navigation": {
+    "pages": [
+      {
+        "group": "Documentation",
+        "pages": [
+          "index"
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "https://easyppp.com/logo-light.svg",
+    "dark": "https://easyppp.com/logo-dark.svg",
+    "href": "https://easyppp.com"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hello@easyppp.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Add to Stripe",
+      "href": "https://app.easyppp.com/sign-up"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "website": "https://easyppp.com"
+    }
+  },
+  "description": "EasyPPP adjusts your Stripe prices to local purchasing power in 186 markets. Real Stripe Prices, not coupons.",
+  "appearance": {
+    "default": "dark"
+  },
+  "background": {
+    "color": {
+      "light": "#FFFFFF",
+      "dark": "#0F1319"
+    }
+  }
+}
